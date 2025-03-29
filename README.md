@@ -18,10 +18,6 @@ This analysis utilizes **Exponential Smoothing** from the `statsmodels.tsa.holtw
 
 And also using apply  ARIMA AND ARMA MODEL TO Anaylsis this dataset 
 
-## Model Comparison and Analysis
-Based on three result i can say ARIMA model is the best choice among this model because it has the lowest MSE by significant margin
-Maintains comparable MAE and RMSE to the improved and ARMA model 
-The extremely low p-value in ADF test confirms strong stationarity,which is ideal for ARIMA MODLELING 
 
 ## Usage
 
@@ -43,15 +39,14 @@ The extremely low p-value in ADF test confirms strong stationarity,which is idea
 
 Ensure your dataset is in the correct format before running the analysis. The notebook expects a structured dataset with sales records over time.
 
-## Contributing
+## Model Comparison and Analysis
+Based on three result i can say ARIMA model is the best choice among this model because it has the lowest MSE by significant margin
+Maintains comparable MAE and RMSE to the improved and ARMA model 
+The extremely low p-value in ADF test confirms strong stationarity,which is ideal for ARIMA MODLELING 
 
-Feel free to fork this repository and contribute by improving the analysis, adding new visualizations, or optimizing the code.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
 
-For any questions or suggestions, reach out via [your email] or open an issue on GitHub.
+
 
